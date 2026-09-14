@@ -1,0 +1,84 @@
+    .hero {
+        display: block;
+    }
+
+    .hero::before {
+        content: "\1F3C6";
+        display: block;
+        font-size: 10rem;
+    }
+
+    .hero-title {
+        margin: 1rem auto;
+    }
+
+    h1::before {
+        content: "\275D";
+    }
+
+    h1::after {
+        content: "\275E";
+    }
+
+    div.background-muted.padding-small.text-center {
+        display: none;
+    }
+
+    .content {
+        border: 0 !important;
+        padding: 0 !important;
+    }
+
+    section {
+        background: linear-gradient(to right, beige, white);
+        padding: 2rem;
+        border-radius: 50px;
+        margin: 3rem 0;
+    }
+
+    section h2 {
+        background: none !important;
+    }
+
+    .big-btn {
+        display: block;
+        background: gold;
+        color: black !important;
+        text-align: center;
+        padding: 2rem 0;
+        font-size: 2rem;
+        font-weight: 900;
+        text-shadow: 1px 0px;
+        border-radius: 50px;
+        width: 90%;
+        margin: 1rem auto 4rem auto;
+        animation: breathe 2s ease-in-out infinite;
+    }
+
+    .big-btn:hover {
+        box-shadow: 0 0 1rem 0 gold;
+    }
+
+
+    @keyframes breathe {
+
+        0%,
+        100% {
+            transform: scale(1);
+        }
+
+        50% {
+            transform: scale(1.1);
+        }
+    }
+
+    section h2::before {
+        content: "\2713";
+        font-size: 3rem;
+        color: darkcyan;
+    }
+
+    summary {
+        padding: 1rem 0;
+        cursor: pointer;
+    }
