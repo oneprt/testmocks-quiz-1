@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+    document.addEventListener("DOMContentLoaded", () => {
 
         let parsedQuestions = [];
 
@@ -457,7 +457,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 // Start timer
                 startTimer();
 
-            }, 5000);
+            }, 3000);
 
         }
 
