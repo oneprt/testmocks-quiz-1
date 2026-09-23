@@ -173,7 +173,6 @@
         display: none;
         background: white;
         animation: fadeIn 0.3s ease;
-        overflow: auto;
         padding: 2rem 0;
     }
 
@@ -224,6 +223,8 @@
         line-height: 1.5;
         font-weight: 500;
         margin: 1rem 0;
+        overflow: auto;
+        padding-bottom: 1rem;
     }
 
     .q-status {
